@@ -1,0 +1,13 @@
+{
+  "BuildId": "25784851",
+  "Files": [
+    {
+      "RelativePath": "ReadyOrNot\\Binaries\\Win64\\ReadyOrNotSteam-Win64-Shipping.exe",
+      "Sha256": "FF445331E7144A2DC79EC50C2E6FD42F2A2E7B49AE7B03AE1A6076DCFC769262"
+    },
+    {
+      "RelativePath": "ReadyOrNot\\Binaries\\Win64\\RedpointEOS\\EOSSDK-Win64-Shipping.dll",
+      "Sha256": "9C498FE31C8DF1D9085DFA9C71C6D50EC6B569ACDB29F1DECB97BE105B6341DC"
+    }
+  ]
+}

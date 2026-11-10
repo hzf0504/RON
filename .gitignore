@@ -1,0 +1,13 @@
+build/
+dist/
+**/bin/
+**/obj/
+sessions/
+exports/
+releases/
+local-state/
+*.user
+tests/results/
+friend/
+docs/analysis/
+RON_HANDOFF.md

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0-windows</TargetFramework><PlatformTarget>x64</PlatformTarget><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="LogTests.cs" />
+    <Compile Remove="LatencyTests.cs" />
+    <Compile Remove="UiTests.cs" />
+    <Compile Include="../src/Assistant/Network.cs" Link="Network.cs" />
+    <Compile Include="../src/Assistant/UdpProbe.cs" Link="UdpProbe.cs" />
+    <Compile Include="../src/Assistant/Evidence.cs" Link="Evidence.cs" />
+    <Compile Include="../src/Assistant/Injection.cs" Link="Injection.cs" />
+  </ItemGroup>
+</Project>

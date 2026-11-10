@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0-windows</TargetFramework><PlatformTarget>x64</PlatformTarget><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="LogTests.cs" />
+    <Compile Include="LatencyTests.cs" />
+    <Compile Include="../src/Assistant/Network.cs" Link="Network.cs" />
+    <Compile Include="../src/Assistant/Evidence.cs" Link="Evidence.cs" />
+    <Compile Include="../src/Assistant/SessionJournal.cs" Link="SessionJournal.cs" />
+    <Compile Include="../src/Assistant/DiagnosticBundle.cs" Link="DiagnosticBundle.cs" />
+    <Compile Include="../src/Assistant/LatencyRecording.cs" Link="LatencyRecording.cs" />
+  </ItemGroup>
+</Project>
